@@ -21,7 +21,7 @@ function onAccessApproved(stream) {
     formdata.append(
       "video",
       recordedBlob,
-      "https://extention-1jzb.onrender.com/api/upload"
+      "https://amara-hngtask-chrome-extension.onrender.com/api/upload"
     );
 
     let url = URL.createObjectURL(recordedBlob);
@@ -34,7 +34,10 @@ function onAccessApproved(stream) {
       redirect: "follow",
     };
 
-    fetch("https://extention-1jzb.onrender.com/api/upload", requestOptions)
+    fetch(
+      "https://amara-hngtask-chrome-extension.onrender.com/api/upload",
+      requestOptions
+    )
       .then((response) => response.text())
       .then((result) => console.log(result))
       .catch((error) => console.log("error", error));
@@ -52,7 +55,7 @@ function onAccessApproved(stream) {
     document.body.removeChild(a);
 
     URL.revokeObjectURL(url);
-    window.location.assign("https://ellahhh-helpmeou.netlify.app/ready");
+    window.location.assign("https://ellahhh-helpmeout.netlify.app/ready");
   };
 }
 

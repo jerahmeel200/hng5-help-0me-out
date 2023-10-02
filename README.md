@@ -1,10 +1,11 @@
 # Chrome Extension Plugin for Screen Recording and Sharing
 
-## Main Objective: 
+## Main Objective:
 
 Create a Chrome Extension plugin that can record a user's screen and send the recorded content to a specific online location (endpoint). The design specifications can be found here:
 
 ## Requirements
+
 - Implement the design exactly as provided. Ensure that all pages match the design precisely.
 - The plugin must work seamlessly on desktop.
 - Create a mechanism to record the user's screen.
@@ -21,13 +22,7 @@ Create a Chrome Extension plugin that can record a user's screen and send the re
 - The submission process is error-free, and users receive confirmation upon successful submission.
 - Any potential issues or errors are gracefully handled, and users receive appropriate feedback.
 
-
-
 ## Installation
-
-1. Clone the repository: `git clone https://github.com/oghene-ella/Screen_Recording_App`
-2. Navigate to the project directory: `cd Screen_Recording_App`
-3. Install the required dependencies: `npm install`
 
 ## Usage
 
